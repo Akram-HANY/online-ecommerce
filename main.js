@@ -50,7 +50,7 @@ function remove_from_cart(index){
     getCartItems()
     
      addToCartButtons = document.querySelectorAll(".bi-cart-plus");
-    for (let i = 0; i < addToCartButtons.length; index++) {
+    for (let i = 0; i < addToCartButtons.length; i++) {
         addToCartButtons[i].classList.remove("active") 
         // adde just a comment       
     }
