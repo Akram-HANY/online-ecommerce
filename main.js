@@ -25,6 +25,14 @@ function close_bg() {
     menu.classList.remove("active")
 }
 
+
+//change item img
+let bigImg = document.getElementById("bigimg");
+
+function ChangeItemImg(img) {
+    bigImg.src = img
+}
+
 /*add items cart */
 
 
@@ -109,3 +117,5 @@ back_to_top.addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+
+

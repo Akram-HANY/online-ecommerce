@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const productHTML = `
                 <div class="product swiper-slide">
                     <div class="icons">
-                        <span><i onclick ="addToCart(${product.id},this)" class="bi bi-cart-plus"></i></span>     
-                        <span><i class="bi bi-heart-fill"></i></span>
-                        <span><i class="bi bi-share"></i></span>
+                        <span><i onclick ="addToCart(${product.id},this)"  class="fa-solid fa-cart-shopping"></i></span>     
+                        <span><i class="fa-solid fa-heart"></i></span>
+                        <span><i class="fa-solid fa-share-nodes"></i></span>
                     </div>
                     <span class="sale_present">%10</span>
                     <div class="img_product">
